@@ -147,14 +147,7 @@ $arrCountry=$stmt->fetchAll(PDO::FETCH_ASSOC);
 					<label><b>Profile Picture:</b></label> 
 					<input type="file" class="" name="picture" required>
 				</div> 
-					<!-- <div class="form-wrapper">
-						<input type="password" name="password" placeholder="Password" class="form-control" required="" >
-						<i class="zmdi zmdi-lock"></i>
-					</div>
-					<div class="form-wrapper">
-						<input type="password" name="password2" placeholder="Confirm Password" class="form-control" required="" >
-						<i class="zmdi zmdi-lock"></i>
-					</div> -->
+					
 					<button name="btn_reg">Register 
 						<i class="zmdi zmdi-arrow-right"></i>
 					</button>
