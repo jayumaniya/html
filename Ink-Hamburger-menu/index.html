@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ink Hamburger Menu</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+	<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+	<section class="content">
+		<header>
+			<h3>LOGO</h3>
+			<div>
+				<label for="toggleMenu">
+					<span class="ti-menu"></span>
+				</label>
+			</div>
+		</header>
+	</section>
+
+	<input type="checkbox" name="" id="toggleMenu">
+
+	<!-- Modal section -->
+	<div class="modal-overlay">
+		<div class="ink-wrapper">
+			<div class="ink-content"></div>
+		</div>
+	</div>
+
+	<div class="modal">
+		<div class="close-menu">
+			<label for="toggleMenu">
+				<span class="ti-close"></span>
+			</label>
+		</div>
+
+		<div class="nav-menu">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About Me</a></li>
+				<li><a href="">My Skills</a></li>
+			        <li><a href="">My Portfolio</a></li>
+				<li><a href="">Contact Me</a></li>
+			</ul>
+		</div>
+	</div>
+	
+
+	<script>
+		window.addEventListener('load', () => {
+			document.querySelector(".modal-overlay").classList.add('close')
+		})
+	</script>
+</body>
+</html>
